@@ -1,0 +1,105 @@
+/* =======================================================
+   BOX INFO 2.0 - MOBILE (Overwrites)
+   ======================================================= */
+#box_info {
+    padding: 10px; 
+    box-sizing: border-box;
+    transform: none !important;
+}
+
+#box_info > div {
+    border-radius: 12px 12px 6px 6px; 
+    box-shadow: 0px -10px 40px rgba(0, 0, 0, 0.6); 
+    width: 100%;
+    max-width: 100%; 
+    max-height: 85vh; 
+    margin: auto !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    position: relative !important;
+    animation: bx_slide_up 0.4s cubic-bezier(0.175, 0.885, 0.32, 1); 
+}
+
+.box_info_tit {
+    padding: 15px 20px; 
+}
+
+#box_info_titulo {
+    font-size: 15px; 
+}
+
+.box_info_close span {
+    width: 32px; 
+    height: 32px; 
+}
+
+.box_info_close span img {
+    height: 14px;
+    width: 14px;
+}
+
+.box_info_close span:active { 
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #469c62;
+}
+
+.box_info_close span:active img {
+    filter: brightness(0);
+    transform: rotate(90deg);
+}
+
+#box_info_cont {
+    padding: 20px 15px;
+}
+
+#box_info_cont table td {
+    font-size: 13px; 
+}
+
+.box_info_inputs {
+    gap: 12px;
+}
+
+#box_info_inp button {
+    background-color: var(--boxinfo-inp-bkg);
+    width: 100% !important;        
+    min-height: 48px !important;  
+    margin: 5px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 15px !important;
+}
+.box_info_inp {
+    border-bottom: 2px solid #42a262 !important; 
+    border-radius: 4px !important; 
+    min-height: 40px !important; 
+    width: 100% !important; 
+    font-size: 14px !important; 
+    padding: 0 10px !important; 
+}
+
+select.box_info_inp {
+    background-color: var(--boxinfo-inp-bkg) !important;
+}
+
+select.box_info_inp:active {
+    background-image: url('/fend/midia/img/main/select_set.png');
+    background-color: var(--boxinfo-inp-bkg) !important;
+}
+
+#box_info_bot {
+    padding: 15px;
+    gap: 10px;
+}
+
+#box_info_bot button {
+    width: 100%;
+    min-width: 120px;
+    min-height: 48px;
+    padding: 12px 20px; 
+    flex-grow: 1; 
+}
